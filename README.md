@@ -1,9 +1,6 @@
 # Список предметов и средств, по которым готовы лаб. работы
-**{igonin}**
-`{network}`
-<ol>
-	<li>**{kicad-test}** Kicad - АКТП [Войт]</li>
-	<li>**{BD}** Erwin - ПИО [Токмаков]</li>
-	<li>**{igonin}** Proteus, MPLAB - АПМПС [Игонин]</li>
-	<li>`{network}` Cisco Packet Tracer - Сети и телекоммуникации [Мартынов]</li>
-</ol>
+
+1. **{kicad-test}** Kicad - АКТП [Войт]
+2. **{BD}** Erwin - ПИО [Токмаков]
+3. **{igonin}** Proteus, MPLAB - АПМПС [Игонин]
+4. `{network}` Cisco Packet Tracer - Сети и телекоммуникации [Мартынов]
