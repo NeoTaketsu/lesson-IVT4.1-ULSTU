@@ -1,6 +1,7 @@
 # Список предметов и средств, по которым готовы лаб. работы
 <ol>
-	<li>Kicad - АКТП [Войт]</li>
-	<li>Erwin - ПИО [Токмаков]</li>
-	<li>Proteus, MPLAB - АПМПС [Игонин]</li>
+	<li>{kicad-test} Kicad - АКТП [Войт]</li>
+	<li>{BD} Erwin - ПИО [Токмаков]</li>
+	<li>{igonin} Proteus, MPLAB - АПМПС [Игонин]</li>
+	<li>{network} Cisco Packet Tracer - Сети и телекоммуникации [Мартынов]</li>
 </ol>
