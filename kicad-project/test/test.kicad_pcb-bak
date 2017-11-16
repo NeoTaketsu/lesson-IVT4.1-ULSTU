@@ -2,8 +2,8 @@
 
   (general
     (links 35)
-    (no_connects 21)
-    (area 104.491099 92.5286 192.511101 117.3786)
+    (no_connects 19)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 0)
     (tracks 0)
@@ -62,7 +62,7 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFFFFFF)
+    (visible_elements FFFFFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -123,8 +123,8 @@
     (add_net "Net-(R8-Pad2)")
   )
 
-  (module Battery_Holders:Keystone_1042_1x18650 (layer F.Cu) (tedit 5A033499) (tstamp 5A0D3724)
-    (at 199.39 71.12)
+  (module Battery_Holders:Keystone_1042_1x18650 (layer F.Cu) (tedit 5A033499) (tstamp 5A0D3586)
+    (at 148.5011 105.0036)
     (descr "Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918")
     (tags "18650 Keystone 1042 Li-ion")
     (path /5A04BC1B)
@@ -177,8 +177,8 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D372A)
-    (at 130.81 67.31)
+  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D358C)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
     (path /5A02B1A2)
@@ -213,7 +213,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D3730)
+  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D3592)
     (at 148.5011 105.0036)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -249,7 +249,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D3736)
+  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D3598)
     (at 148.5011 105.0036)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -284,7 +284,7 @@
     )
   )
 
-  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D373C)
+  (module Capacitors_SMD:C_0805 (layer F.Cu) (tedit 58AA8463) (tstamp 5A0D359E)
     (at 148.5011 105.0036)
     (descr "Capacitor SMD 0805, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0805")
@@ -320,7 +320,7 @@
     )
   )
 
-  (module SMD_Packages:SOIC-8-N (layer F.Cu) (tedit 0) (tstamp 5A0D3748)
+  (module SMD_Packages:SOIC-8-N (layer F.Cu) (tedit 0) (tstamp 5A0D35AA)
     (at 148.5011 105.0036)
     (descr "Module Narrow CMS SOJ 8 pins large")
     (tags "CMS SOJ")
@@ -361,7 +361,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D374E)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35B0)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -397,7 +397,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D3754)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35B6)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -433,7 +433,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D375A)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35BC)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -469,7 +469,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D3760)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35C2)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -505,7 +505,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D3766)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35C8)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -541,7 +541,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D376C)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35CE)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -577,7 +577,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D3772)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35D4)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -613,7 +613,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D3778)
+  (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 58E0A804) (tstamp 5A0D35DA)
     (at 148.5011 105.0036)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
@@ -649,7 +649,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 590CE9A4) (tstamp 5A0D377E)
+  (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 590CE9A4) (tstamp 5A0D35E0)
     (at 148.5011 105.0036)
     (descr "Diode SMD in 0805 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -692,7 +692,7 @@
     )
   )
 
-  (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 590CE9A4) (tstamp 5A0D3784)
+  (module Diodes_SMD:D_0805 (layer F.Cu) (tedit 590CE9A4) (tstamp 5A0D35E6)
     (at 148.5011 105.0036)
     (descr "Diode SMD in 0805 package http://datasheets.avx.com/schottky.pdf")
     (tags "smd diode")
@@ -735,7 +735,7 @@
     )
   )
 
-  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D378B)
+  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D35ED)
     (at 148.5011 105.0036)
     (descr "TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -772,7 +772,7 @@
     )
   )
 
-  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D3792)
+  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D35F4)
     (at 148.5011 105.0036)
     (descr "TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -809,7 +809,7 @@
     )
   )
 
-  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D3799)
+  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D35FB)
     (at 148.5011 105.0036)
     (descr "TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -846,7 +846,7 @@
     )
   )
 
-  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D37A0)
+  (module TO_SOT_Packages_THT:TO-92_Molded_Narrow (layer F.Cu) (tedit 58CE52AF) (tstamp 5A0D3602)
     (at 148.5011 105.0036)
     (descr "TO-92 leads molded, narrow, drill 0.6mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
