@@ -1,8 +1,10 @@
 import random as rand
 import time
 
-import Geffe
 import Linear
+
+from Lab1 import Geffe
+
 
 def save_file(name, data):
     with open(name + ".txt", "w") as f:

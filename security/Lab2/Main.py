@@ -1,9 +1,11 @@
-import MyHash
 import os
 import sys
+
+import MyHash
+
 sys.path.insert(0, '../')
 
-import Linear
+from Lab1 import Linear
 
 
 def crypt(data, key):
