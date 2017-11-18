@@ -425,17 +425,6 @@ F 3 "" H 4900 850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4350 850  4750 850 
-$Comp
-L ЗП-25 BF1
-U 1 1 5A04BC1B
-P 5400 1150
-F 0 "BF1" H 5550 1200 60  0000 C CNN
-F 1 "ЗП-25" H 5600 1100 60  0000 C CNN
-F 2 "Capacitors_SMD:C_0805" H 5400 1150 60  0001 C CNN
-F 3 "" H 5400 1150 60  0001 C CNN
-	1    5400 1150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5350 850  5050 850 
 $Comp
@@ -473,4 +462,19 @@ Connection ~ 4650 1200
 NoConn ~ 4350 2100
 Wire Wire Line
 	600  1100 600  1200
+$Comp
+L Speaker LS1
+U 1 1 5A0F908D
+P 5550 1100
+F 0 "LS1" H 5600 1325 50  0000 R CNN
+F 1 "Speaker" H 5600 1250 50  0000 R CNN
+F 2 "Battery_Holders:Seiko_MS621F" H 5550 900 50  0001 C CNN
+F 3 "" H 5540 1050 50  0001 C CNN
+	1    5550 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 850  5350 1100
+Wire Wire Line
+	5350 1200 5350 1500
 $EndSCHEMATC
