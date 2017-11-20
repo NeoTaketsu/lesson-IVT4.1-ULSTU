@@ -8,6 +8,7 @@ from sklearn import preprocessing
 
 
 def compare(pred_y, y_test):
+    print(type(y_test))
     y_test = y_test.values.tolist()
     count = 0
     for i in range(len(pred_y)):
@@ -22,6 +23,7 @@ def linear(x_train, y_train, x_test, y_test):
     print('Coefficients: \n', regr.coef_)
     pred_y = regr.predict(x_test)
     print("Mean squared error: %.2f" % mean_squared_error(y_test, pred_y))
+    compare(pred_y.tolist(), y_test)
     pd.DataFrame({
         'y_test': y_test,
         'y_pred': pred_y
@@ -29,7 +31,6 @@ def linear(x_train, y_train, x_test, y_test):
 
     print('Variance score: %.2f' % r2_score(y_test, pred_y))
 
-    compare(pred_y.tolist(), y_test)
 
 
 def mpl(x_train, y_train, x_test, y_test):
